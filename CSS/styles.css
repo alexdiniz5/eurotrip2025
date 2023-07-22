@@ -1,0 +1,204 @@
+/* ELEMENTS */
+:root {
+    --main-color: #FFF;
+    --secondary-color: #040303;
+    --color-dark-purple: #2A0944;
+    --color-purple: #3B185F;
+    --light-purple: #9A208C;
+    --color-pink: #A12568;
+    --color-yellow: #fefb60;
+    --color-orange: #FF4C29;
+    --color-light-blue: #97DEFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 320px;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    font-style: oblique;
+    color: var(--color-light-blue);
+}
+
+.itinerary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin: 20px 10px 10px 10px;
+    background-color: var(--main-color);
+    font-size: 28px;
+}
+
+.itinerary p {
+    font-size: 10px;
+    align-self: flex-start;
+    padding-top: 5px;
+}
+
+.itinerary table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--main-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    font-size: 11.5px;
+}
+
+.itinerary img {
+    width: 30px;
+}
+
+.itinerary td {
+    padding: 5px 5px;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+}
+
+.transportation-cells th {
+    background-color: var(--light-purple);
+    color: var(--main-color);
+    padding: 5px 5px;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+}
+
+.hotel-cells th {
+    background-color: var(--color-orange);
+    color: var(--main-color);
+    padding: 5px 5px;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+}
+
+.city-title th {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    font-size: 28px;
+    padding: 5px 5px;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+}
+
+
+.itinerary tr:hover {
+    background-color: var(--color-yellow);
+}
+
+#black-cell {
+    background-color: var(--secondary-color);
+}
+
+#destaque-fixo {
+    background-color: var(--color-light-blue);
+}
+
+#important-date {
+    background-color: var(--color-yellow);
+    font-weight: 900;
+}
+
+#day {
+    font-size: 12px;
+    font-weight: 900;
+    align-self: center;
+    color: var(--color-pink);
+}
+
+#coffee img {
+    width: 17px;
+    background-color: var(--main-color);
+    margin-right: 10px;
+}
+
+.ida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 10px;
+}
+
+.title-container {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color-purple);
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-container img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.ida-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ida-content h2 {
+    padding: 10px 0 20px 0;
+}
+
+.ida-content img {
+    width: 95%;
+    padding: 5px 0 20px 5px;
+    border: 3px solid var(--color-dark-purple);
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .itinerary table {
+        font-size: 18px;
+    }
+
+    .itinerary img {
+        width: 80px;
+    }
+
+    .city-title th {
+        font-size: 45px;
+    }
+
+    #coffee img {
+        width: 30px;
+    }
+    
+    .itinerary table {
+        width: 85%;
+
+    }
+
+}

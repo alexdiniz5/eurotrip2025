@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agenda de Viagens</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Eurotrip 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Roteiro</a></li>
+                <li><a href="#section2">Lugares</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="itinerary">
+        <h1>Nosso Itinerário</h1>
+        <p>*Os valores das tabelas são por pessoa.</p>
+        <table>
+            <tr class="city-title">
+                <th colspan="5">
+                    Rio
+                    <img src="img/brazil-flag.png" alt="brazil-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Amsterdam
+                    <img src="img/netherlands-flag.png" alt="netherlands-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">01</td>
+                <td id="important-date">01/01</td>
+                <td id="important-date">02/01</td>
+                <td>Rio (GIG)</td>
+                <td>Roma (FCO)</td>
+            </tr>
+            <tr>
+                <td>Seg.</td>
+                <td>Ter.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td rowspan="2" id="destaque-fixo">R$7.000</td>
+                <td colspan="2" rowspan="2">ITA Airways</td>
+                <td>Roma (FCO)</td>
+                <td>Amsterdam (AMS)</td>
+            </tr>
+            <tr>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5"><img src="img/netherlands-flag.png" alt="netherlands-flag">
+                    Amsterdam
+                    <img src="img/kinderdijk-windmills.png" alt="mill">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">02, 03, 04, 05</td>
+                <td id="important-date">02/01</td>
+                <td id="important-date">05/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"> <b>Heart of Amsterdam Hotel</b></td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Amsterdam
+                    <img src="img/netherlands-flag.png" alt="netherlands-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Bruxelas
+                    <img src="img/belgium-flag.png" alt="belgium-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">05</td>
+                <td colspan="2" id="important-date">05/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/belgium-flag.png" alt="belgium-flag">
+                    Bruxelas
+                    <img src="img/atomium.png" alt="atomium">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">05, 06, 07</td>
+                <td id="important-date">05/01</td>
+                <td id="important-date">07/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Não aceitam dinheiro</b>)</td>
+            </tr>
+            <tr>
+                <td>15:00-</td>
+                <td>-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">80.70€</td>
+                <td colspan="2" rowspan="2"> <strong>Hotels Bruxelles City Center</strong></td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/MEININGER+Hotel+Brussels+City+Center/@50.84347,4.3140066,14z/data=!4m13!1m2!2m1!1sMEININGER+Hotels+Bruxelles+City+Center!3m9!1s0x47c3c38bc8f50f41:0x35d52e894dfa5be!5m2!4m1!1i2!8m2!3d50.8512031!4d4.338157!15sCiZNRUlOSU5HRVIgSG90ZWxzIEJydXhlbGxlcyBDaXR5IENlbnRlciIDiAEBWigiJm1laW5pbmdlciBob3RlbHMgYnJ1eGVsbGVzIGNpdHkgY2VudGVykgEFaG90ZWyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUk5jamx1VkhGblJSQULgAQA!16s%2Fg%2F1261l7r66?entry=ttu">Quai du Hainaut 33</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$484</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">(Incluso)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Bruxelas
+                    <img src="img/belgium-flag.png" alt="belgium-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Paris
+                    <img src="img/france-flag.png" alt="france-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">07</td>
+                <td colspan="2" id="important-date">07/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/france-flag.png" alt="france-flag">
+                    Paris
+                    <img src="img/eiffel-tower.png" alt="eiffel-tower">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">07, 08, 09, 10</td>
+                <td id="important-date">07/01</td>
+                <td id="important-date">10/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Dinheiro não é aceito</b>)</td>
+            </tr>
+            <tr>
+                <td>15:00-</td>
+                <td>-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">137.16€</td>
+                <td colspan="2" rowspan="2"> <strong>Hotel Paris Porte de Vincennes</strong></td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/MEININGER+Hotel+Paris+Porte+de+Vincennes/@48.843839,2.4105705,17z/data=!3m1!4b1!4m10!3m9!1s0x47e672886553ab59:0xce7e90ae846954b9!5m3!1s2023-09-03!4m1!1i2!8m2!3d48.8438355!4d2.4131508!16s%2Fg%2F11h4trtwfc?entry=ttu"> 37 Boulevard Carnot, 12º arr.</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$822,96</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">(Incluso)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Paris
+                    <img src="img/france-flag.png" alt="france-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Londres
+                    <img src="img/united-kingdom-flag.png" alt="uk-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">10</td>
+                <td colspan="2" id="important-date">10/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/united-kingdom-flag.png" alt="uk-flag">
+                    Londres
+                    <img src="img/big-ben.png" alt="big-ben">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">10, 11, 12, 13, 14</td>
+                <td id="important-date">10/01</td>
+                <td id="important-date">14/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">£245</td>
+                <td colspan="2" rowspan="2"> <strong>Dolphin Inn - The Lodge</strong></td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/44+Norfolk+Square,+Tyburnia,+London+W2+1RT,+Reino+Unido/@51.5164048,-0.1727981,17z/data=!4m6!3m5!1s0x48761ab31ea6070b:0x90fb66a57f4f4ae!8m2!3d51.516486!4d-0.1729889!16s%2Fg%2F11c5flpmmb?entry=ttu"> 44 Norfolk Square, Westminster Borough</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$1.715</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">Incluso</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/united-kingdom-flag.png" alt="uk-flag">
+                    Londres
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Zurique
+                    <img src="img/switzerland-flag.png" alt="swiss-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">14</td>
+                <td colspan="2" id="important-date">14/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/switzerland-flag.png" alt="swiss-flag">
+                    Zurique
+                    <img src="img/mountain.png" alt="Zurique-mountain">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">14, 15, 16, 17</td>
+                <td id="important-date">14/01</td>
+                <td id="important-date">17/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Zurique
+                    <img src="img/switzerland-flag.png" alt="swiss-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Veneza
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">17</td>
+                <td colspan="2" id="important-date">17/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    Veneza
+                    <img src="img/rialto.png" alt="rialto-bridge">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">17, 18, 19, 20</td>
+                <td id="important-date">17/01</td>
+                <td id="important-date">20/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Veneza
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Florença
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">20</td>
+                <td colspan="2" id="important-date">20/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    Florença
+                    <img src="img/duomoDi_firenze.png" alt="firenze">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">20, 21, 22, 23, 24</td>
+                <td id="important-date">20/01</td>
+                <td id="important-date">24/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Florença
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Pisa
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">23</td>
+                <td colspan="2" id="important-date">23/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    Pisa
+                    <img src="img/pisa-tower.png" alt="pisa-tower">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">23</td>
+                <td id="important-date">23/01</td>
+                <td id="important-date">23/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Florença
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Roma
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">24</td>
+                <td colspan="2" id="important-date">24/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    Roma
+                    <img src="img/colosseum.png" alt="coliseu">
+                </th>
+            </tr>
+            <tr class="hotel-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas (Check-in)</th>
+                <th colspan="2">Pagamento</th>
+
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">24, 25, 26, 27, 28</td>
+                <td id="important-date">24/01</td>
+                <td id="important-date">28/01</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+            </tr>
+            <tr>
+                <td>14:00-00:00</td>
+                <td>05:00-11:00</td>
+            </tr>
+            <tr class="hotel-cells">
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th colspan="2">Hotel</th>
+                <th colspan="2">Endereço</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td colspan="2"><a
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        Achterburgwal 118/120</a></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$925</td>
+                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+            </tr>
+            <tr class="city-title">
+                <th colspan="5">
+                    Roma
+                    <img src="img/italy-flag.png" alt="italy-flag">
+                    <img src="img/right-arrow.png" alt="right-arrow">
+                    Rio
+                    <img src="img/brazil-flag.png" alt="brazil-flag">
+                </th>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Dia</th>
+                <th colspan="2">Datas</th>
+                <th>Origem</th>
+                <th>Escala</th>
+            </tr>
+            <tr>
+                <td id="day" rowspan="2">28</td>
+                <td colspan="2" id="important-date">28/01</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">Sex.</td>
+                <td>15:45</td>
+                <td>06:45</td>
+            </tr>
+            <tr class="transportation-cells">
+                <th>Valor</th>
+                <th colspan="2">Empresa</th>
+                <th>Escala</th>
+                <th>Destino</th>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">154.16€</td>
+                <td colspan="2" rowspan="2"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="destaque-fixo">R$7.000</td>
+                <td>08:30</td>
+                <td>11:05</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Seção 2 -->
+    <section class="ida" id="ida">
+        <div class="title-container">
+            <img src="img/airplane.png" alt="airplane-icon">
+            <h1>Ida</h1>
+        </div>
+        <div class="ida-content">
+            <h2>Malas</h2>
+            <img src="img/malas.PNG" alt="malas">
+            <p>Conteúdo da Seção 2.</p>
+        </div>
+
+    </section>
+
+
+    <section id="Ida">
+
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+
+    <section id="Ida">
+        <h2>Ida</h2>
+        <p>Conteúdo da Seção 2.</p>
+    </section>
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Informações de contato ou outros detalhes do rodapé.</p>
+    </footer>
+</body>
+
+</html>
