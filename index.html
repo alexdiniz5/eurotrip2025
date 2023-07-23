@@ -4,22 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Agenda de Viagens</title>
+    <title>Eurotrip2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Eurotrip 2025</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Roteiro</a></li>
-                <li><a href="#section2">Lugares</a></li>
-            </ul>
-        </nav>
+        <a href="#"> <img src="img/logo.PNG" alt="logo"></a>
     </header>
+    <!-- Seção dos Cards -->
+    <section class="travel-section">
+        <div class="card">
+            <a href="#itinerary"><img src="img/destination.png" alt="destination">Itinerário</a>
+        </div>
+        <div class="card">
+            <img id="card_flag" src="img/netherlands-flag.png" alt="netherlands-flag">
+            <img id="card_flag" src="img/belgium-flag.png" alt="belgium-flag">
+            <img id="card_flag" src="img/france-flag.png" alt="france-flag">
+            <a href="#">Cidades a Explorar</a>
+            <img id="card_flag" src="img/united-kingdom-flag.png" alt="uk-flag">
+            <img id="card_flag" src="img/switzerland-flag.png" alt="swiss-flag">
+            <img id="card_flag" src="img/italy-flag.png" alt="italy-flag">
+        </div>
+    </section>
+    <!-- Fim da Seção dos Cards -->
 
-    <section class="itinerary">
+    <section class="map-video-gif">
+        <h2>Trajeto</h2>
+        <img src="img/eutotrip-video_AdobeExpress.gif" alt="map-video-gif">
+    </section>
+
+    <hr class="linha-grossa">
+
+    <!-- Seção do Itinerário -->
+    <section id="itinerary" class="itinerary">
         <h1>Nosso Itinerário</h1>
         <p>*Os valores das tabelas são por pessoa.</p>
         <table>
@@ -39,15 +60,13 @@
                 <th>Escala</th>
             </tr>
             <tr>
-                <td id="day" rowspan="2">01</td>
-                <td id="important-date">01/01</td>
-                <td id="important-date">02/01</td>
+                <td id="day" rowspan="2">01, 02</td>
+                <td rowspan="2" id="important-date">01/01 (Seg)</td>
+                <td rowspan="2" id="important-date">02/01 (Ter)</td>
                 <td>Rio (GIG)</td>
                 <td>Roma (FCO)</td>
             </tr>
             <tr>
-                <td>Seg.</td>
-                <td>Ter.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -81,29 +100,29 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">02, 03, 04, 05</td>
-                <td id="important-date">02/01</td>
-                <td id="important-date">05/01</td>
+                <td id="important-date">02/01 (Seg)</td>
+                <td id="important-date">05/01 (Sex)</td>
                 <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
+                <td>14:00-</td>
                 <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
-                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
+                <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup">8.50€</th>
                 <th colspan="2">Hotel</th>
                 <th colspan="2">Endereço</th>
             </tr>
             <tr>
                 <td id="destaque-fixo">154.16€</td>
-                <td colspan="2" rowspan="2"> <b>Heart of Amsterdam Hotel</b></td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/nl/heartofamsterdam.pt-br.html?aid=2311236&label=pt-br-booking-desktop-%2AZ03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&all_sr_blocks=1094011_95129698_0_2_0;checkin=2024-01-02;checkout=2024-01-05;dest_id=10940;dest_type=hotel;dist=0;group_adults=6;group_children=0;hapos=1;highlighted_blocks=1094011_95129698_0_2_0;hpos=1;matching_block_id=1094011_95129698_0_2_0;no_rooms=1;req_adults=6;req_children=0;room1=A%2CA%2CA%2CA%2CA%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1094011_95129698_0_2_0__64125;srepoch=1690084520;srpvid=b70e1b93cccc0044;type=total;ucfs=1&#hotelTmpl" target="_blank"><b>Heart of Amsterdam Hotel</b></a></td>
                 <td colspan="2"><a
-                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
+                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu" target="_blank">Oudezijds
                         Achterburgwal 118/120</a></td>
             </tr>
             <tr>
                 <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 31/12/23</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -122,12 +141,11 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">05</td>
-                <td colspan="2" id="important-date">05/01</td>
+                <td rowspan="2" colspan="2" id="important-date">05/01 (Sex)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -163,9 +181,10 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">05, 06, 07</td>
-                <td id="important-date">05/01</td>
-                <td id="important-date">07/01</td>
-                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Não aceitam dinheiro</b>)</td>
+                <td id="important-date">05/01 (Sex)</td>
+                <td id="important-date">07/01 (Dom)</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Não aceitam dinheiro</b>)
+                </td>
             </tr>
             <tr>
                 <td>15:00-</td>
@@ -178,13 +197,14 @@
             </tr>
             <tr>
                 <td id="destaque-fixo">80.70€</td>
-                <td colspan="2" rowspan="2"> <strong>Hotels Bruxelles City Center</strong></td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.pt-br.html?aid=2311236&label=pt-br-booking-desktop-%2AZ03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&age=0;all_sr_blocks=45060406_100030364_0_2_0%2C45060408_100030364_1_2_0;checkin=2024-01-05;checkout=2024-01-07;dest_id=450604;dest_type=hotel;dist=0;group_adults=6;group_children=1;hapos=1;highlighted_blocks=45060406_100030364_0_2_0%2C45060408_100030364_1_2_0;hpos=1;matching_block_id=45060406_100030364_0_2_0;no_rooms=1;req_adults=6;req_age=0;req_children=1;room1=A%2CA%2CA%2CA%2CA%2CA%2C0;sb_price_type=total;sr_order=popularity;sr_pri_blocks=45060406_100030364_0_2_0__33300%2C45060408_100030364_1_2_0__5775;srepoch=1690085531;srpvid=a6ea1d8c49c80035;type=total;ucfs=1&#hotelTmpl" target="_blank"><strong>MEININGER Hotels Bruxelles City Center</strong></a></td>
                 <td colspan="2"><a
-                        href="https://www.google.com/maps/place/MEININGER+Hotel+Brussels+City+Center/@50.84347,4.3140066,14z/data=!4m13!1m2!2m1!1sMEININGER+Hotels+Bruxelles+City+Center!3m9!1s0x47c3c38bc8f50f41:0x35d52e894dfa5be!5m2!4m1!1i2!8m2!3d50.8512031!4d4.338157!15sCiZNRUlOSU5HRVIgSG90ZWxzIEJydXhlbGxlcyBDaXR5IENlbnRlciIDiAEBWigiJm1laW5pbmdlciBob3RlbHMgYnJ1eGVsbGVzIGNpdHkgY2VudGVykgEFaG90ZWyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUk5jamx1VkhGblJSQULgAQA!16s%2Fg%2F1261l7r66?entry=ttu">Quai du Hainaut 33</a></td>
+                        href="https://www.google.com/maps/place/MEININGER+Hotel+Brussels+City+Center/@50.84347,4.3140066,14z/data=!4m13!1m2!2m1!1sMEININGER+Hotels+Bruxelles+City+Center!3m9!1s0x47c3c38bc8f50f41:0x35d52e894dfa5be!5m2!4m1!1i2!8m2!3d50.8512031!4d4.338157!15sCiZNRUlOSU5HRVIgSG90ZWxzIEJydXhlbGxlcyBDaXR5IENlbnRlciIDiAEBWigiJm1laW5pbmdlciBob3RlbHMgYnJ1eGVsbGVzIGNpdHkgY2VudGVykgEFaG90ZWyaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUk5jamx1VkhGblJSQULgAQA!16s%2Fg%2F1261l7r66?entry=ttu" target="_blank">Quai
+                        du Hainaut 33</a></td>
             </tr>
             <tr>
                 <td id="destaque-fixo">R$484</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">(Incluso)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 04/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -244,9 +264,10 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">07, 08, 09, 10</td>
-                <td id="important-date">07/01</td>
-                <td id="important-date">10/01</td>
-                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Dinheiro não é aceito</b>)</td>
+                <td id="important-date">07/01 (Dom)</td>
+                <td id="important-date">10/01 (Qua)</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, <b>Dinheiro não é aceito</b>)
+                </td>
             </tr>
             <tr>
                 <td>15:00-</td>
@@ -259,13 +280,14 @@
             </tr>
             <tr>
                 <td id="destaque-fixo">137.16€</td>
-                <td colspan="2" rowspan="2"> <strong>Hotel Paris Porte de Vincennes</strong></td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/fr/meininger-paris-porte-de-vincennes.pt-br.html?label=pt-br-booking-desktop-*Z03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&aid=2311236&ucfs=1&arphpl=1&checkin=2024-01-07&checkout=2024-01-10&dest_id=5163757&dest_type=hotel&group_adults=6&req_adults=6&no_rooms=1&group_children=1&req_children=1&age=0&req_age=0&hpos=1&hapos=1&sr_order=popularity&srpvid=72191e9c2c5d0103&srepoch=1690086075&all_sr_blocks=516375705_179922234_0_2_0%2C516375702_179922234_0_2_0&highlighted_blocks=516375705_179922234_0_2_0%2C516375702_179922234_0_2_0&matching_block_id=516375705_179922234_0_2_0&sr_pri_blocks=516375705_179922234_0_2_0__44500%2C516375702_179922234_0_2_0__23400&from_sustainable_property_sr=1&from=searchresults#hotelTmpl" target="_blank"><strong>Hotel Paris Porte de Vincennes</strong></a></td>
                 <td colspan="2"><a
-                        href="https://www.google.com/maps/place/MEININGER+Hotel+Paris+Porte+de+Vincennes/@48.843839,2.4105705,17z/data=!3m1!4b1!4m10!3m9!1s0x47e672886553ab59:0xce7e90ae846954b9!5m3!1s2023-09-03!4m1!1i2!8m2!3d48.8438355!4d2.4131508!16s%2Fg%2F11h4trtwfc?entry=ttu"> 37 Boulevard Carnot, 12º arr.</a></td>
+                        href="https://www.google.com/maps/place/MEININGER+Hotel+Paris+Porte+de+Vincennes/@48.843839,2.4105705,17z/data=!3m1!4b1!4m10!3m9!1s0x47e672886553ab59:0xce7e90ae846954b9!5m3!1s2023-09-03!4m1!1i2!8m2!3d48.8438355!4d2.4131508!16s%2Fg%2F11h4trtwfc?entry=ttu" target="_blank">
+                        37 Boulevard Carnot, 12º arr.</a></td>
             </tr>
             <tr>
                 <td id="destaque-fixo">R$822,96</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">(Incluso)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 06/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -284,12 +306,11 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">10</td>
-                <td colspan="2" id="important-date">10/01</td>
+                <td colspan="2" colspan="2"id="important-date">10/01 (Qua)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -324,14 +345,14 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">10, 11, 12, 13, 14</td>
-                <td id="important-date">10/01</td>
-                <td id="important-date">14/01</td>
-                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+                <td id="day" rowspan="2">10, 11, 12, 13</td>
+                <td id="important-date">10/01 (Qua)</td>
+                <td id="important-date">13/01 (Sáb)</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, JCB, AE, <b>Não aceitam dinheiro</b>)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
-                <td>05:00-11:00</td>
+                <td>14:00-</td>
+                <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
                 <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
@@ -339,14 +360,15 @@
                 <th colspan="2">Endereço</th>
             </tr>
             <tr>
-                <td id="destaque-fixo">£245</td>
-                <td colspan="2" rowspan="2"> <strong>Dolphin Inn - The Lodge</strong></td>
+                <td id="destaque-fixo">£130.66</td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/gb/dolphin-inn-the-lodge.pt-br.html?aid=2311236&label=pt-br-booking-desktop-%2AZ03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&all_sr_blocks=43000406_376355453_4_2_0%2C43000404_376355453_2_2_0;checkin=2024-01-10;checkout=2024-01-13;dest_id=-2601889;dest_type=city;dist=0;group_adults=6;group_children=0;hapos=1;highlighted_blocks=43000406_376355453_4_2_0%2C43000404_376355453_2_2_0;hpos=1;matching_block_id=43000406_376355453_4_2_0;no_rooms=1;req_adults=6;req_children=0;room1=A%2CA%2CA%2CA%2CA%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=43000406_376355453_4_2_0__41566%2C43000404_376355453_2_2_0__27490;srepoch=1690086310;srpvid=2ca51f1129c3011f;type=total;ucfs=1&#hotelTmpl" target="_blank"><strong>Dolphin Inn - The Lodge</strong></a></td>
                 <td colspan="2"><a
-                        href="https://www.google.com/maps/place/44+Norfolk+Square,+Tyburnia,+London+W2+1RT,+Reino+Unido/@51.5164048,-0.1727981,17z/data=!4m6!3m5!1s0x48761ab31ea6070b:0x90fb66a57f4f4ae!8m2!3d51.516486!4d-0.1729889!16s%2Fg%2F11c5flpmmb?entry=ttu"> 44 Norfolk Square, Westminster Borough</a></td>
+                        href="https://www.google.com/maps/place/44+Norfolk+Square,+Tyburnia,+London+W2+1RT,+Reino+Unido/@51.5164048,-0.1727981,17z/data=!4m6!3m5!1s0x48761ab31ea6070b:0x90fb66a57f4f4ae!8m2!3d51.516486!4d-0.1729889!16s%2Fg%2F11c5flpmmb?entry=ttu">
+                        44 Norfolk Square, Westminster Borough</a></td>
             </tr>
             <tr>
-                <td id="destaque-fixo">R$1.715</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">Incluso</td>
+                <td id="destaque-fixo">R$915</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 09/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -364,13 +386,12 @@
                 <th>Escala</th>
             </tr>
             <tr>
-                <td id="day" rowspan="2">14</td>
-                <td colspan="2" id="important-date">14/01</td>
+                <td id="day" rowspan="2">13</td>
+                <td colspan="2" colspan="2" id="important-date">13/01 (Sab)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -405,14 +426,14 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">14, 15, 16, 17</td>
-                <td id="important-date">14/01</td>
-                <td id="important-date">17/01</td>
-                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+                <td id="day" rowspan="2">13, 14, 15, 16</td>
+                <td id="important-date">13/01 (Sab)</td>
+                <td id="important-date">16/01 (Ter)</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, EC, <b>Dinheiro não é aceito</b>)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
-                <td>05:00-11:00</td>
+                <td>15:00-</td>
+                <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
                 <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
@@ -420,15 +441,14 @@
                 <th colspan="2">Endereço</th>
             </tr>
             <tr>
-                <td id="destaque-fixo">154.16€</td>
-                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
+                <td id="destaque-fixo">911 CHF</td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/ch/meininger-zurich-greencity.pt-br.html?aid=2311236&label=pt-br-booking-desktop-%2AZ03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&all_sr_blocks=713822106_298393094_6_2_0;checkin=2024-01-13;checkout=2024-01-16;dest_id=-2554935;dest_type=city;dist=0;group_adults=6;group_children=0;hapos=1;highlighted_blocks=713822106_298393094_6_2_0;hpos=1;map=1;matching_block_id=713822106_298393094_6_2_0;no_rooms=1;req_adults=6;req_children=0;room1=A%2CA%2CA%2CA%2CA%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=713822106_298393094_6_2_0__56200;srepoch=1690086801;srpvid=17fc2007d79500b9;type=total;ucfs=1&#_" target="_blank"> <strong>MEININGER Hotel Zürich Greencity</strong></a> </td>
                 <td colspan="2"><a
-                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
-                        Achterburgwal 118/120</a></td>
+                        href="https://www.google.com/maps/place/Maneggstrasse+41,+8041+Z%C3%BCrich,+Su%C3%AD%C3%A7a/@47.3414849,8.5176039,17z/data=!4m6!3m5!1s0x479009c5274ea739:0x21fb95bfe61e7838!8m2!3d47.3414813!4d8.5201842!16s%2Fg%2F11qlzyjkq6?entry=ttu" target="_blank">41 Maneggstrasse, Wollishofen</a></td>
             </tr>
             <tr>
-                <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td id="destaque-fixo">R$911</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 12/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -447,12 +467,11 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">17</td>
-                <td colspan="2" id="important-date">17/01</td>
+                <td colspan="2" rowspan="2 id="important-date">16/01 (Ter)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -487,14 +506,14 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">17, 18, 19, 20</td>
-                <td id="important-date">17/01</td>
-                <td id="important-date">20/01</td>
-                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
+                <td id="day" rowspan="2">16, 17, 18, 19</td>
+                <td id="important-date">16/01 (Ter)</td>
+                <td id="important-date">19/01 (Sex)</td>
+                <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, CartaSi, JCB, AE, <b>Não aceitam Dinheiro</b>)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
-                <td>05:00-11:00</td>
+                <td>14:00-</td>
+                <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
                 <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
@@ -502,15 +521,13 @@
                 <th colspan="2">Endereço</th>
             </tr>
             <tr>
-                <td id="destaque-fixo">154.16€</td>
-                <td colspan="2" rowspan="2">Heart of Amsterdam Hotel</td>
-                <td colspan="2"><a
-                        href="https://www.google.com/maps/place/Oudezijds+Achterburgwal+118,+120,+1012+DT+Amsterdam,+Pa%C3%ADses+Baixos/@52.3738171,4.8938746,15.96z/data=!4m5!3m4!1s0x47c609b8c93d5859:0xba4a5fbbbe402110!8m2!3d52.3723577!4d4.8974963?entry=ttu">Oudezijds
-                        Achterburgwal 118/120</a></td>
+                <td id="destaque-fixo">113€</td>
+                <td colspan="2" rowspan="2"> <a href="https://www.booking.com/hotel/it/abbazia.pt-br.html?aid=2311236&label=pt-br-booking-desktop-*Z03s8xKyMvd_IJ7TCpKIwS652796015463%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-394218728%3Alp9101182%3Ali%3Adec%3Adm&sid=7284739c06232b77c9c438d0725ed784&all_sr_blocks=8899805_363233054_4_1_0%2C8899801_363233054_0_1_0&checkin=2024-01-16&checkout=2024-01-19&dest_id=-132007&dest_type=city&dist=0&group_adults=6&group_children=0&hapos=2&highlighted_blocks=8899805_363233054_4_1_0%2C8899801_363233054_0_1_0&hpos=2&matching_block_id=8899805_363233054_4_1_0&nflt=mealplan%3D1%3Bht_id%3D204&no_rooms=1&req_adults=6&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=price&sr_pri_blocks=8899805_363233054_4_1_0__37500%2C8899801_363233054_0_1_0__24000&srepoch=1690119624&srpvid=d3f66015127c0136&type=total&ucfs=1&activeTab=main#_" target="_blank"><strong>Hotel Abbazia</strong></a></td>
+                <td colspan="2"><a href="https://www.google.com/maps/place/Hotel+Abbazia/@45.4419504,12.3209256,17z/data=!4m10!3m9!1s0x477eb1c0baaa522b:0x87e31d6302479651!5m3!1s2023-09-03!4m1!1i2!8m2!3d45.442037!4d12.321724!16s%2Fg%2F1tf_m47p?entry=ttu">Calle Priuli dei Cavaletti, 68</a></td>
             </tr>
             <tr>
-                <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td id="destaque-fixo">R$678</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 11/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -528,13 +545,12 @@
                 <th>Escala</th>
             </tr>
             <tr>
-                <td id="day" rowspan="2">20</td>
-                <td colspan="2" id="important-date">20/01</td>
+                <td id="day" rowspan="2">19</td>
+                <td colspan="2" rowspan="2" id="important-date">19/01 (Sex)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -569,14 +585,14 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">20, 21, 22, 23, 24</td>
-                <td id="important-date">20/01</td>
-                <td id="important-date">24/01</td>
+                <td id="day" rowspan="2">19, 20, 21, 22, 23</td>
+                <td id="important-date">19/01 (Sex)</td>
+                <td id="important-date">23/01 (Ter)</td>
                 <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
-                <td>05:00-11:00</td>
+                <td>14:00-</td>
+                <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
                 <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
@@ -592,7 +608,7 @@
             </tr>
             <tr>
                 <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 04/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -611,12 +627,11 @@
             </tr>
             <tr>
                 <td id="day" rowspan="2">23</td>
-                <td colspan="2" id="important-date">23/01</td>
+                <td colspan="2" rowspan="2" id="important-date">23/01 (Ter)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -651,9 +666,8 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">23</td>
-                <td id="important-date">23/01</td>
-                <td id="important-date">23/01</td>
+                <td id="day" rowspan="2">22 </td>
+                <td id="important-date">22/01 (Seg)</td>
                 <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
             </tr>
             <tr>
@@ -674,7 +688,7 @@
             </tr>
             <tr>
                 <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 04/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -692,13 +706,12 @@
                 <th>Escala</th>
             </tr>
             <tr>
-                <td id="day" rowspan="2">24</td>
-                <td colspan="2" id="important-date">24/01</td>
+                <td id="day" rowspan="2">23</td>
+                <td colspan="2" rowspan="2" id="important-date">23/01 (Ter)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -733,14 +746,14 @@
 
             </tr>
             <tr>
-                <td id="day" rowspan="2">24, 25, 26, 27, 28</td>
-                <td id="important-date">24/01</td>
-                <td id="important-date">28/01</td>
+                <td id="day" rowspan="2">23, 24, 25, 26, 27</td>
+                <td id="important-date">23/01 (Ter)</td>
+                <td id="important-date">27/01 (Sab)</td>
                 <td rowspan="2" colspan="2">NO LOCAL (Aceitam: Mastercard, Maestro, Visa, AE, Dinheiro, Multibanco)</td>
             </tr>
             <tr>
-                <td>14:00-00:00</td>
-                <td>05:00-11:00</td>
+                <td>14:00-</td>
+                <td>-11:00</td>
             </tr>
             <tr class="hotel-cells">
                 <th id="coffee">Valor Ind. c/ <img src="img/coffee-cup.png" alt="coffee-cup"> </th>
@@ -756,7 +769,7 @@
             </tr>
             <tr>
                 <td id="destaque-fixo">R$925</td>
-                <td colspan="2" id="coffee"> <img src="img/coffee-cup.png" alt="coffee-cup">8.50€ (Opcional)</td>
+                <td colspan="2" id="coffee"> <img src="img/checked.png" alt="checked">Cancelável até: 04/01/24</td>
             </tr>
             <tr class="city-title">
                 <th colspan="5">
@@ -774,13 +787,12 @@
                 <th>Escala</th>
             </tr>
             <tr>
-                <td id="day" rowspan="2">28</td>
-                <td colspan="2" id="important-date">28/01</td>
+                <td id="day" rowspan="2">27</td>
+                <td colspan="2" rowspan="2" id="important-date">27/01 (Sáb)</td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2">Sex.</td>
                 <td>15:45</td>
                 <td>06:45</td>
             </tr>
@@ -803,7 +815,7 @@
             </tr>
         </table>
     </section>
-
+    <!-- Fim da Seção do Itinerário -->
     <!-- Seção 2 -->
     <section class="ida" id="ida">
         <div class="title-container">
@@ -815,14 +827,13 @@
             <img src="img/malas.PNG" alt="malas">
             <p>Conteúdo da Seção 2.</p>
         </div>
-
     </section>
 
 
     <section id="Ida">
 
         <h2>Ida</h2>
-        <p>Conteúdo da Seção 2.</p>
+        <p>Conteúdo da Seção 2. Transportes próximos ao hotel para ir ao centro. Restaurantes. Padarias. Supermercados. Farmácias. Tomada. Clima. Pontos turísticos.</p>
     </section>
 
     <section id="Ida">
